@@ -66,11 +66,11 @@ h1, .titre
 .entete3
 {
 	padding: 10px ;
+	padding-bottom: 5px;
 
 	border: 5px slategray solid;
-	border-top-left-radius: 20px; 
-	border-bottom-right-radius: 20px ;
-	/*border-bottom-left-radius: 20px ; */	
+	border-top-left-radius: 30px; 
+	border-bottom-right-radius: 30px ;
 }
 
 .entete3 img{
@@ -153,3 +153,42 @@ main ul:hover
 	align-items: center;
 }
 
+/*---MODALE---*/
+
+#modal
+{
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	/* aligne les colonnes au centres (les filles sont mises en colonnes */
+
+	position: absolute;
+	
+		top: 50%;
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
+	
+}
+
+#background
+{
+	background-color: rgb(53, 49, 49,0.8);/* le 3em parametre sert pour l'opacité du background */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	/* z-index est pour les couches */
+	width: 100%;
+	height: 100%;
+
+	visibility: hidden;
+}
+
+.img_modale{	
+	padding: 10px ;
+
+	border: 15px slategray solid;
+	border-top-left-radius: 80px; 
+	border-bottom-right-radius: 80px ;
+}

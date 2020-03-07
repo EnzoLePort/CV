@@ -29,10 +29,8 @@ ajoutCompetences("bureautique","Word","5");
 ajoutCompetences("bureautique","Excel & Macros (VBA)","5");
 ajoutCompetences("bureautique","PowerPoint","5");
 
-ajoutCompetences("notation2","TEST1","4");
-ajoutCompetences("notation2","TEST2","5");
-
-
+//ajoutCompetences("notation2","TEST1","4");
+//ajoutCompetences("notation2","TEST2","5");
 
 
 function ajoutCompetences(id,nom,nb)
@@ -67,3 +65,19 @@ function ajoutNiveau(id,nb)
 
 }
 
+/* IMAGES */
+document.getElementById("clic").addEventListener("click", clic);
+    function clic()
+    {
+      //console.log("marcheCLIC");
+      var background = document.querySelector("#background");
+			background.style.visibility = "visible";
+    }
+
+document.getElementById("modal").addEventListener("click", cache);
+    function cache()
+    {
+      //console.log("marcheCLIC");
+      var background = document.querySelector("#background");
+			background.style.visibility = "hidden";
+    }
