@@ -23,6 +23,7 @@ ajoutCompetences("logiciels","Angular & Node.js","1");
 
 
 ajoutCompetences("systemes","Serveur Linux","3");
+ajoutCompetences("systemes","Server Windows","3");
 
 ajoutCompetences("bureautique","Word","5");
 ajoutCompetences("bureautique","Excel & Macros (VBA)","5");
