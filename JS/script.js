@@ -6,8 +6,9 @@ ajoutCompetences("languages","JavaScript","4");
 ajoutCompetences("languages","C#","4");
 ajoutCompetences("languages","PHP","4");
 ajoutCompetences("languages","C++","3");
-ajoutCompetences("languages","MySQL","3");
-ajoutCompetences("languages","C","3");
+ajoutCompetences("languages","MySQL & Transact-SQL","3");
+ajoutCompetences("languages","Python","3");
+ajoutCompetences("languages","C","2");
 ajoutCompetences("languages","Java","2");
 ajoutCompetences("languages","Angular","1");
 
@@ -24,6 +25,7 @@ ajoutCompetences("logiciels","Angular & Node.js","1");
 
 ajoutCompetences("systemes","Serveur Linux","3");
 ajoutCompetences("systemes","Server Windows","3");
+ajoutCompetences("systemes","Server SQL","3");
 
 ajoutCompetences("bureautique","Word","5");
 ajoutCompetences("bureautique","Excel & Macros (VBA)","5");
